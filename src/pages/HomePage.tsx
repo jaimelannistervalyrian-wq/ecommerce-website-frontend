@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAtom } from 'jotai';
 import { motion, AnimatePresence } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { ArrowRight, Award, ChevronLeft, ChevronRight, RefreshCw, Shield, Truck } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { cartAtom } from '../store/atoms';
@@ -56,7 +57,7 @@ const heroSlides = [
     },
 ];
 
-const fadeUp = {
+const fadeUp: Variants = {
     hidden: { opacity: 0, y: 24 },
     visible: (i: number) => ({
         opacity: 1, y: 0,
