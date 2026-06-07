@@ -302,4 +302,10 @@ export const categories = [
     { name: 'Earrings', slug: 'earrings' },
     { name: 'Bracelets', slug: 'bracelets' },
     { name: 'Accessories', slug: 'accessories' },
+    { name: 'Partywear Set', slug: 'partywear-set' },
+    { name: 'Bridal Set', slug: 'bridal-set' },
+    { name: 'Necklace Set', slug: 'necklace-set' },
+    { name: 'Anklets', slug: 'anklets' },
+    { name: 'Handcuffs', slug: 'handcuffs' },
+    { name: 'Kids Variety', slug: 'kids-variety' },
 ];
